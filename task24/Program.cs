@@ -13,3 +13,4 @@ Console.Clear();
 GetSumNums(5);
 GetSumNums(50);
 GetSumNums(25);
+GetSumNums(325);
