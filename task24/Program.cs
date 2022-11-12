@@ -7,10 +7,9 @@ for (int i = 1; i <= Math.Abs(number); i++)
 {
     sum += i;
 }
-Console.WriteLine($"Сумма цифр от 1 жо введеного числа: {sum}");
+Console.WriteLine($"Сумма цифр от 1 до введеного числа А = {sum}");
 }
 Console.Clear();
-GetSumNums(5);
-GetSumNums(50);
-GetSumNums(25);
-GetSumNums(325);
+Console.Write("Ввведите число A: ");
+int numberRead = Convert.ToInt32(Console.ReadLine());
+GetSumNums(numberRead);
